@@ -1,0 +1,5 @@
+body {
+    background-image: url('logo.gif');
+    background-size: cover;
+    background-position: center 25%; 
+}
