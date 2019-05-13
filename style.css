@@ -1,5 +1,7 @@
 body {
-    background-image: url('logo.gif');
+    background-image: url('logo.png');
+    background-repeat: no-repeat;
     background-size: cover;
-    background-position: center 25%; 
+    background-position: center 25%;
+    background-color: #000;
 }
