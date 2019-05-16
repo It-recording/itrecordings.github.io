@@ -1,7 +1,28 @@
+@font-face {
+  font-family: 'MyWebFont';
+  src: url('./fonts/abaddon/abaddon.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
 body {
     background-image: url('logo.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center 25%;
     background-color: #000;
+}
+
+.container {
+    width:100%;
+    height:auto;
+}
+
+.header {
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+}
+
+h1 {
+    color: rgba(220,220,220,0.8);
+    font-family: MyWebFont;
 }
